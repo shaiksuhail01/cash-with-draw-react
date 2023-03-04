@@ -1,0 +1,28 @@
+.listItemContainer {
+  background-color: #382f5a;
+  border-radius: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #c4c4c4;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 49px;
+  padding-right: 49px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  margin-right: 13px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  flex-grow: 3;
+  cursor: pointer;
+  outline: none;
+  width: 130px;
+}
+@media screen and (min-width: 768px) {
+  .listItemContainer {
+    font-size: 19px;
+    width: 170px;
+  }
+}

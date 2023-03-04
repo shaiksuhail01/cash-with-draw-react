@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.divContainer {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  background-color: #150b3e;
+  border-radius: 8px;
+  border-width: 0px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 17px;
+  padding-right: 17px;
+  width: 400px;
+}
+.nameContainer {
+  display: flex;
+  flex-direction: row;
+}
+.nameId {
+  background-color: #c7d2fe;
+  border-radius: 25px;
+  border-width: 0px;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 17px;
+  color: #7c3aed;
+  font-family: 'Roboto';
+}
+.name {
+  font-family: 'Roboto';
+  color: #d4d2db;
+  font-size: 19px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.balanceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.balanceName {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #585076;
+  font-size: 17px;
+  padding-top: 8px;
+}
+.balance {
+  font-family: 'Roboto';
+
+  color: #ffffff;
+  font-size: 22px;
+}
+.description {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: bold;
+}
+.withdrawName {
+  font-family: 'Roboto';
+
+  color: #ffffff;
+  font-size: 22px;
+}
+.chooseDescription {
+  font-family: 'Roboto';
+  color: #585076;
+  font-weight: bold;
+  font-size: 15px;
+}
+.listContainer {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .cardContainer {
+    width: 400px;
+  }
+  .balance {
+    font-size: 28px;
+  }
+  .balanceName {
+    padding-top: 15px;
+  }
+}
